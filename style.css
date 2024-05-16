@@ -13,14 +13,13 @@ body {
 #h1 {
   background-color: #00000050;
   border-radius: 5px;
-
   font-size: 10vmin;
   text-align: center;
-  margin: 25px;
+  margin: 1vmin 1vmin 2.5vmin;
 }
 
 #p {
-  font-size: 5vmin;
+  font-size: 3.5vmin;
   font-weight: 525;
 }
 
@@ -53,6 +52,9 @@ body {
   font-size: 10vmin;
 }
 
+.box:hover {
+  cursor: pointer;
+}
 #reset-btn {
   padding: 6px 12px;
   border-radius: 5px;
@@ -60,7 +62,7 @@ body {
   font-weight: bold;
   background-color: #191913;
   color: white;
-  font-size: 5vmin;
+  font-size: 4vmin;
   margin: 15px 0 25px 0;
 }
 
@@ -80,12 +82,12 @@ body {
   font-weight: bold;
   background-color: #191913;
   color: white;
-  font-size: 1rem;
+  font-size: 4vmin;
 }
 
 #msg-win {
   color: black;
-  font-size: 2rem;
+  font-size: 5vmin;
   padding: 6px;
   font-weight: bold;
 }
